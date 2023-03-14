@@ -10,6 +10,21 @@
     <div class="item-logos">
       <img class="logos" alt="puma logo" src="../assets/puma-logo.png" />
     </div>
+    <div class="item-logos">
+      <img class="logos" alt="adidas logo" src="../assets/adidas-logo.png" />
+    </div>
+    <div class="item-logos">
+      <img class="logos" alt="nike logo" src="../assets/nike-logo.png" />
+    </div>
+    <div class="item-logos">
+      <img class="logos" alt="puma logo" src="../assets/puma-logo.png" />
+    </div>
+    <div class="item-logos">
+      <img class="logos" alt="adidas logo" src="../assets/adidas-logo.png" />
+    </div>
+    <div class="item-logos">
+      <img class="logos" alt="nike logo" src="../assets/nike-logo.png" />
+    </div>
   </div>
 </template>
 
@@ -22,10 +37,11 @@ export default {
 <style scoped>
 .title-header {
   margin-bottom: 80px;
+  text-align: left;
 }
 
 .logos-wrapper {
-  width: 70%;
+  width: 62%;
   overflow: hidden;
   margin: auto;
   background: navajowhite;
@@ -33,8 +49,8 @@ export default {
 
 .item-logos {
   float: left;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin-bottom: 70px;
+  margin-right: 70px;
   width: 150px;
   height: 150px;
   background: yellowgreen;
