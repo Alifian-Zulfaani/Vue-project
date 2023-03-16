@@ -1,4 +1,4 @@
-# vue-project
+# vue-gogo
 
 ## Project setup
 ```
