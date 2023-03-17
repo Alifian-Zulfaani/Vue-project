@@ -1,6 +1,6 @@
 <template>
   <section class="login d-flex">
-    <div class="login-left w-50 h-100 bg-warning">
+    <div class="login-left w-50 h-100">
       <div class="row justify-content-center align-items-center h-100">
         <div class="col-6">
           <div class="header">
@@ -97,12 +97,9 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  margin-top: 20px;
-}
-
 .login {
   height: 100vh;
+  overflow: hidden; /* Hide Scrollbar */
 }
 
 .header h1 {

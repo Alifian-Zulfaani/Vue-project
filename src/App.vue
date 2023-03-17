@@ -1,11 +1,12 @@
 <template>
   <nav
-    class="navbar navbar-expand-lg justify-content-center fixed-top"
+    class="navbar justify-content-center fixed-top"
     style="background-color: #2c3e50"
   >
     <router-link to="/">Home</router-link> |
     <router-link to="/profile">Profile</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/display">Display</router-link>
   </nav>
   <router-view />
 </template>

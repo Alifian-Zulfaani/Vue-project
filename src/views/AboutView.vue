@@ -1,7 +1,5 @@
 <template>
-  <div class="about container">
-    <section class="hero"></section>
-  </div>
+  <section class="hero"></section>
 </template>
 
 <script>
@@ -15,12 +13,11 @@ export default {
 
 <style scoped>
 .hero {
-  margin-top: 20px;
-  border-radius: 10px;
-  min-height: 80vh;
+  width: 100;
+  height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../assets/hero.png");
+  background-image: url("../assets/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
